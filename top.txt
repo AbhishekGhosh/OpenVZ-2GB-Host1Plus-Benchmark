@@ -1,0 +1,16 @@
+top - 05:10:37 up  7:10,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  30 total,   1 running,  29 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.0 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   2097152 total,  2042252 used,    54900 free,        0 buffers
+KiB Swap:  1048576 total,    23252 used,  1025324 free.  1881420 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 3442 root      20   0   89708   3840   2828 S   0.7  0.2   0:00.04 sshd               1 root      20   0   33452   2184   1464 S   0.0  0.1   0:00.56 init
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd/36538     3 root      20   0       0      0      0 S   0.0  0.0   0:00.00 khelper/36538
+  161 root      20   0   19424    608    604 S   0.0  0.0   0:00.01 upstart-udev-+   181 root      20   0   49216    948    944 S   0.0  0.0   0:00.00 systemd-udevd
+  339 root      20   0   15336    424    420 S   0.0  0.0   0:00.01 upstart-socke+   342 syslog    20   0  184088   1420    952 S   0.0  0.1   0:01.27 rsyslogd
+  343 root      20   0   15356    412    408 S   0.0  0.0   0:00.01 upstart-file-+   523 root      20   0   14944    880    876 S   0.0  0.0   0:00.00 xinetd
+  527 root      20   0   23604    768    700 S   0.0  0.0   0:00.01 cron             574 root      20   0   61328   2488   2376 S   0.0  0.1   0:01.02 sshd
+  592 bind      20   0  248920   3256   2672 S   0.0  0.2   0:00.06 named            707 root      20   0   25292   1456   1372 S   0.0  0.1   0:00.09 master
+  716 postfix   20   0   27408   1400   1312 S   0.0  0.1   0:00.01 qmgr             746 root      20   0   83560    408    404 S   0.0  0.0   0:00.00 saslauthd
+  747 root      20   0   83560     48     44 S   0.0  0.0   0:00.00 saslauthd        834 root      20   0   12736    720    716 S   0.0  0.0   0:00.00 getty
